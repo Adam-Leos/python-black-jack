@@ -149,7 +149,7 @@ class BlackJack:
 
     def ask_player_confirmation(self, message=''):
         while True:
-            next_move = input(f'\n{message} (\'y\' or \'n\): ').lower()
+            next_move = input(f'\n{message} (\'y\' or \'n\'): ').lower()
 
             # checking for the first char in input to help with the typo
             if (next_move[0] == 'y' or next_move[0] == 'n'):
